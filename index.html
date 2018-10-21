@@ -1,0 +1,36 @@
+<!doctype <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Guess the Word</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/myjavascript2.js"></script>
+</head>
+<body>
+    
+    <div id="GuessHead">
+        <h1>The Ghostly Guessing Game</h1>
+    </div>
+    <div class="GuessDiv">
+        <div id="x"></div>
+        <div id="buttons">
+            <button id="reset">Reset</button>
+            <p id="youlose">you lose</p>
+            <p id="youwin">you win</p>
+        </div>
+        <p>region of the ghost: <span id="GhostRegion"></span></p>
+        <p>remaining guesses: <span id="UserLives"></span></p>
+        <p>letters guessed: <span id="UserGuessed"></span></p>
+        <p>current word: <span id="currentWord"></span></p>
+        <p>games won: <span id="GamesWon"></span></p>
+    </div>
+    <script>
+        resetGame()
+        UpdateDisplay()
+    </script>    
+</body>
+</html>

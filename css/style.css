@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+#GuessHead {
+    font-family: 'Fredericka the Great', cursive;
+    color: darkgray;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.GhostDiv {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin: 10px auto;
+}
+
+#stairsID {
+    max-width: 100%;
+    opacity: 70%;
+}
+
+.GuessDiv {
+    font-family: 'Fredericka the Great', cursive;
+    color: darkgray;
+    font-size: 26px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+}
+
